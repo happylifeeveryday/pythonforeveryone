@@ -1,0 +1,8 @@
+stuff=list()
+stuff.append('book')
+stuff.append("arhan")
+print(stuff)
+stuff.append('cookie')
+print(stuff)
+stuff.sort()
+print(stuff)
