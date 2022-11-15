@@ -65,8 +65,8 @@ for Jarvis in range(100):
             # On most other platforms the best timer is time.time()
             timer = time.time
 
-    API_KEY = '************************'
-    SECRET_KEY = '*********************************'
+    API_KEY = 'igbG0SqZ5rpgr5O3XKGI3YmL'
+    SECRET_KEY = 'akAbXiQvUo0pGtpe7RV1lA5kqU2Df77s'
 
     # 需要识别的文件
     AUDIO_FILE = 'output.wav'  # 只支持 pcm/wav/amr 格式，极速版额外支持m4a 格式
