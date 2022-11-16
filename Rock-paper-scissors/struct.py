@@ -1,14 +1,24 @@
 import random
 class rock():
-    position_x=random.random()
-    position_y=random.random()
+    def __init__(self):
+        self.position_x=random.random()
+        self.position_y=random.random()
+    def eaten():
+        #when rock touches paper,rock will be changed to paper.
+        return(self.position_x,self.position_y)
 
 class paper():
-    position=0
+    def __init__(self):
+        self.position_x=random.random()
+        self.position_y=random.random()
+    def eaten():
+        #when paper touches scissors,paper will be changed to scissors.
+        return(self.position_x,self.position_y)
 
 class scissors():
-    position=0
-
-rock0=rock()
-print(rock0.position_x)
-print(rock0.position_y)
+    def __init__(self):
+        self.position_x=random.random()
+        self.position_y=random.random()
+    def eaten():
+        #when scissors touches rock,scissors will be changed to rock.
+        return(self.position_x,self.position_y)
